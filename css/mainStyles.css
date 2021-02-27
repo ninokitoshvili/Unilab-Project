@@ -85,6 +85,9 @@ i {
 	display: flex;
 	justify-content: space-between;
 }
+.cl {
+	flex-direction: column;
+}
 /* header */
 header {
 	width: 100%;
@@ -277,4 +280,97 @@ header {
 	flex-direction: column;
 }
 
+/* happening now */
+.bignew_main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.happening_container {
+	width: 100%;
+	height: 950px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.happening_header {
+	width: 760px;
+}
+.bignew_container {
+	/* width: 760px; */
+	height: 900px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
 
+.bignew_item {
+	width: 100%;
+	height: 430px;
+	position: relative;
+}
+
+/* .bignew_container img {
+	position: absolute;
+} */
+
+.bignew_item_container {
+	position: absolute;
+	margin: auto;
+	width: 680px;
+	height: 350px;
+	color: var(--white);
+	top: 0%;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	/* display: flex;
+	flex-direction: column; */
+}
+
+.bignew_item_location {
+	text-transform: uppercase;
+
+	line-height: 20px;
+}
+
+.bignew_item_info {
+	height: 100px;
+}
+
+.bignew_item_info span {
+	color: var(--gray);
+}
+.bignew_item_info p {
+	color: var(--white);
+	display: block;
+	width: 90%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.happeninr_rightcl_container {
+	width: 360px;
+	height: 950px;
+}
+
+.happening_arrows {
+	display: flexbox;
+	justify-content: flex-end;
+}
+
+.bignew_container_info {
+	height: 60px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.bignew_container_item img {
+	height: 210px;
+}
+
+.text_underline {
+	text-decoration: underline;
+	text-transform: capitalize;
+}
